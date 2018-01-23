@@ -6,7 +6,7 @@
 #    By: fde-souz <fde-souz@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/11/29 11:52:57 by fde-souz          #+#    #+#              #
-#    Updated: 2018/01/22 18:18:37 by fde-souz         ###   ########.fr        #
+#    Updated: 2018/01/23 13:04:22 by fde-souz         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -65,7 +65,5 @@ fclean: clean
 clean_o:
 	@rm -f $(NAME)
 	@rm -rf $(OBJ_PATH)
-
-re_bis: clean_o $(NAME)
 
 re: fclean all
