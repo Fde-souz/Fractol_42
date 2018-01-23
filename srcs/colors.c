@@ -6,7 +6,7 @@
 /*   By: fde-souz <fde-souz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/22 11:37:09 by fde-souz          #+#    #+#             */
-/*   Updated: 2018/01/23 12:42:00 by fde-souz         ###   ########.fr       */
+/*   Updated: 2018/01/23 13:09:52 by fde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,8 @@ t_palette	set_pal(int key)
 {
 	if (key == 20)
 	{
-		return ((t_palette){4, {0xD35400, 0xE67e22, 0xf39c12, 0xf1c40f}});
+		return ((t_palette){5, {0x61b3ff, 0x210a7f, 0x0588da, 0x0bcc31,
+		0x21fd2b}});
 	}
 	else if (key == 18)
 		return ((t_palette){16, {0x421e0f, 0x19071a, 0x090104, 0x09012f
