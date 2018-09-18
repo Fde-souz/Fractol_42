@@ -4,10 +4,10 @@ Fractol is a project aimed at exploring fractals, mathematical sets that exhibit
 ## Pictures
 ### Mandelbrot
 
-![alt tag](./unknown.png)
+![alt tag](./unknown-2.png)
 
 ### Julia
 ![alt tag](./unknown-1.png)
 
 ### BurningShip
-![alt tag](./unknown-2.png)
+![alt tag](./unknown.png)
